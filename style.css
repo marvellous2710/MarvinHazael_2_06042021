@@ -1,0 +1,665 @@
+/* Eléments principaux de la page */
+html,body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+body a{
+    text-decoration: none;
+    color: #181818;
+}
+
+/* Header */
+header
+{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trouvez{
+    margin: 20px;
+}
+.logo{
+    width: 10px;
+    height: 5px;
+}
+
+
+.menu{  
+    top: 0;
+    display: flex;  
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+nav a:hover
+{
+    color: #006af3;
+    border-top: 3px solid #006af3; 
+}
+
+.inscription a{
+    color: #006af3;
+    font-weight: bold;
+}
+/* RECHERCHE */
+
+.champ-recherche{
+    display: flex;
+}
+
+.icon-map{
+    background: rgb(240, 240, 240, 0.678);
+    border-radius: 10px 0 0 10px;
+    padding: 10px
+}
+
+.champ-recherche input{
+    padding: 7px;    
+    border: 1px rgb(240, 240, 240, 0.678) solid;
+    padding: 9px;
+}
+
+.icon-loupe{
+    display: none;
+}
+
+.button-button{
+    color: white;
+    background: #006af3;
+    border-radius: 0 10px 10px 0;  
+    border: none;
+    width: 100px;
+}
+
+
+/* FILTRES */
+
+.filtre-{
+    display: flex;
+}
+
+.filtre- p{
+    padding-top: 10px;
+}
+
+.filtres-1 ul{
+    display: flex;
+    list-style: none;
+}
+
+.filtres-1 li{
+    margin-right: 50px;
+    border: 1px rgb(240, 240, 240, 0.678) solid;
+    border-radius: 40px;
+    padding-right: 20px; 
+}
+
+.filtres-1 li i{
+    color: rgb(38, 132, 240);
+    background: rgb(234, 249, 255);
+    border-radius: 20px;
+    padding: 10px;  
+    margin-right: 5px;
+}
+
+.info i{
+    color: #006af3;
+    border: 1px rgb(240, 240, 240, 0.678) solid;    
+    border-radius: 20px;
+    padding: 10px; 
+    margin: 5px; 
+    height: 5px;
+    font-size: 10px;
+}
+
+
+/* HEBERGEMENTS A MARSEILLE*/
+
+.cote{
+    display: flex;   
+}
+
+
+.hébergements{ 
+    padding: 30px;
+    background: rgba(240, 240, 240, 0.678);
+    border-radius: 20px 20px 20px 20px;   
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+
+.hébergements h2{
+    margin: 0;
+}
+
+.image-container{
+    width: auto;
+    height: 100px;
+}
+
+.hébergements img{
+    width: 100%; 
+    height: 100%;  
+    border-radius: 20px 20px 0px 0px;
+}
+.cadre{
+    display: flex;
+    flex-wrap: wrap;      
+    width: auto; 
+    justify-content: space-between;
+}
+
+.chambre{
+    background:white;
+    width: 200px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+    padding: 5px;  
+    margin: 10px;
+}
+
+.texte{
+    margin-left: 5px;
+    line-height: 1px;
+}
+
+div .notation{
+    margin-top: -5px;
+}
+
+.notation i{
+    color: #006af3;
+    font-size: 10px;
+}
+
+.star-grey i{
+    color: #a5a0a0;
+    padding: 0;
+    margin: 0;
+}
+
+.afficherplus a{
+    text-decoration: none;
+    color: #181818;
+}
+
+
+/* <!-- LES PLUS POPULAIRES--> */
+
+.populaires{  
+    padding: 10px;
+    background: rgba(240, 240, 240, 0.678);
+    border-radius: 20px 20px 20px 20px; 
+    max-width: 500px;  
+    margin-right: 20px;
+}
+
+.cadre_populaire{
+    display: flex;
+    background:white;
+    width: 300px;
+    border-radius: 20px; 
+    margin-bottom: 25px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+    padding: 5px;  
+    height: 100px;
+}
+
+.populaires img{
+    width: 100px;
+    height: 100px; 
+    padding-right: 5px;  
+    border-radius: 20px 0px 0px 20px;
+     
+}
+
+.texte_populaire{
+    line-height: 12px;
+}
+
+
+
+/*  ASIDE /ACTIVITES A MARSEILLE */
+aside{
+    margin: 20px;
+}
+
+.activités{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texte_activité{
+    margin-left: 10px;
+    line-height: 1px;
+}
+
+.groupe1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.groupe2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.port{
+    background:white;
+    width: 230px;
+    height: 350px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.port img{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px 20px 0 0;
+}
+
+.fort{
+    background:white;
+    width: 230px;
+    height: 190px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.fort img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0 0;
+}
+
+.iles{
+    background:white;
+    width: 230px;
+    height: 130px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.iles img{
+    width: 100%;
+    height: 72%;
+    border-radius: 20px 20px 0 0;
+}
+
+.parc{
+    background:white;
+    width: 230px;
+    height: 350px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.parc img{
+    width: 100%;
+    height: 89%;
+    border-radius: 20px 20px 0 0;
+}
+
+.garde{
+    background:white;
+    width: 230px;
+    height: 160px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.garde img{
+    width: 100%;
+    height: 75%;
+    border-radius: 20px 20px 0 0;
+}
+
+.longchamp{
+    background:white;
+    width: 230px;
+    height: 160px;
+    border-radius: 20px; 
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);  
+}
+
+.longchamp img{
+    width: 100%;
+    height: 75%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    background: rgba(240, 240, 240, 0.678);
+    padding: 30px;
+    
+}
+
+.footer ul{   
+    list-style-type: none;
+    min-height: 25px;
+    padding: 0;
+}
+
+.footer li{   
+    margin-right: 150px;
+    min-height: 25px;
+    padding-top: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #181818;
+}
+
+.apropos{
+    width: 30%;
+}
+.noshébergements{
+    width: 30%;
+}
+
+.assistance{
+    width: 30%;
+}
+
+
+/* MEDIA */
+@media all and (min-width: 1500px)
+{
+    .chambre{
+        width: 350px;
+    }
+
+    .image-container{
+        height: 200px;
+    }
+
+    .port{
+        width: 350px;
+    }
+
+    .fort{
+        width: 350px;
+    }
+
+    .iles{
+        width: 350px;
+    }
+
+    .parc{
+        width: 350px;
+    }
+
+    .garde{
+        width: 350px;
+    }
+
+    .longchamp{
+        width: 350px;
+    }
+
+    /* FOOTER */
+
+    .apropos{
+        width: 30%;
+    }
+    .noshébergements{
+        width: 30%;
+    }
+
+    .assistance{
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 1000px)
+{
+    .filtres-1{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+
+    /* POPULAIRES */
+    .populaires
+    {
+        width: 100%;
+    }
+
+    .cadre_populaire{
+        width: auto;
+    }
+
+    /* HEBERGEMENTS */
+
+    .cote{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/* IPHONE 8 */
+@media all and (max-width: 550px)
+{
+    .cote{
+        width: 100%;
+    }
+   /* NAV */
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -50PX;
+    }
+  
+   nav li{
+    margin: 20px;
+    border-bottom: 3px solid rgb(240, 240, 240, 0.678);
+    padding-bottom: 20px;
+   }
+   
+   nav ul{
+       border-bottom: 4px;
+       padding: 0;
+    }
+
+
+   nav a:hover
+    {
+    color: #006af3;
+    border-top: none;
+    border-bottom: 3px solid #006af3; 
+    font-size: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .inscription a{
+        float: right;
+        color: #006af3;
+    }
+
+    /* RECHERCHE */
+
+    .icon-map{
+        width: 20px;
+    }
+
+    .icon-map i{
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .champ-recherche input{
+        width: 75%;
+    }
+    .icon-loupe{
+        display: flex;
+        background: #006af3;
+        color:white;
+        border: none;
+        width: 40px;
+        border-radius: 0 10px 10px 0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .icon-loupe i{
+        font-size: 20px;
+    }
+
+   
+  
+    .button-button{
+        display: none;
+    }
+ 
+     
+   
+    /* FILTRES */
+   .filtre-{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .filtres-1 li{
+    margin: 5px;    
+    }
+
+    .filtres-1 ul{
+   flex-wrap: wrap;
+   padding-left: 0;
+    }
+
+   /* POPULAIRES */
+
+    .populaires{
+        width: 100%;
+        padding-left: 40px;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .cadre_populaire{
+        height: 110px;
+        width: 270px;
+    }
+
+    .cadre_populaire img{
+        height: 100%;
+        width: 110px;
+    }
+
+
+   /* HEBERGEMENTS */
+
+   .hébergements{
+       background: white;
+       width: 100%;
+       border-radius: 0;
+       padding-left: 0;
+   }
+   .chambre{
+       width: 290px;
+   }
+
+   /* ACTIVITES */
+   
+   aside{
+        margin-left: 30px;
+   }
+
+   .port{
+       height: 165px;
+       width: 290px;
+       padding-bottom: 15px;
+       margin-bottom: 20px;
+   }
+
+
+   .groupe1 .fort{
+        height: 165px;
+        width: 290px;
+        margin-bottom: 20px;
+   }
+
+   .groupe1 .iles{
+        height: 165px;
+        width: 290px;
+        margin-bottom: 20px;
+}
+
+    .groupe1 .iles img{
+        height: 80%;
+    }
+
+    .parc{
+        height: 165px;
+        width: 290px; 
+        padding-bottom: 15px; 
+        margin-bottom: 20px;  
+    }
+
+    .groupe2 .garde{
+        height: 165px;
+        width: 290px;
+        margin-bottom: 20px;
+    }
+
+    .groupe2 .garde img{
+        height: 80%;
+    }
+
+    .groupe2 .longchamp{
+        height: 165px;
+        width: 290px;
+    }
+
+    .groupe2 .longchamp img{
+        height: 80%;
+    }
+
+}
