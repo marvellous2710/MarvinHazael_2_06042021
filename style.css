@@ -483,44 +483,68 @@ aside{
     .cote{
         width: 100%;
     }
+    
    /* NAV */
-
     header{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
     }
+
+    #logo{
+        margin: 20px;
+    }
+
+    .inscription{
+        margin: 0;
+        padding-right: 30px;
+    }
+
+    .inscription a{
+        float: right;
+        color: #006af3;
+    }
+    
 
     .menu{
         display: flex;
         flex-direction: column-reverse;
         margin-top: -50PX;
     }
-  
-   nav li{
-    margin: 20px;
-    border-bottom: 3px solid rgb(240, 240, 240, 0.678);
-    padding-bottom: 20px;
-   }
+    
+    .menu li{
+        width: 50%;
+    }
+
+    nav{
+        padding-top:20PX;
+    }
+
+    nav li{
+        margin: 0;
+        border-bottom: 3px solid rgb(240, 240, 240, 0.678);
+        padding-bottom: 20px;
+        text-align: center;
+    }
    
    nav ul{
        border-bottom: 4px;
        padding: 0;
     }
+    
+    nav a{
+        padding: 50px;
+    }
 
-
-   nav a:hover
-    {
-    color: #006af3;
-    border-top: none;
-    border-bottom: 3px solid #006af3; 
-    font-size: 20px;
-    padding-bottom: 20px;
+    nav a:hover{
+        color: #006af3;
+        border-top: none;
+        border-bottom: 3px solid #006af3; 
+        font-size: 20px;
+        padding-bottom: 20px;
     }
     
-    .inscription a{
-        float: right;
-        color: #006af3;
-    }
+  
 
     /* RECHERCHE */
 
@@ -578,14 +602,15 @@ aside{
 
     .populaires{
         width: 100%;
-        padding-left: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
         border-radius: 0;
         margin: 0;
     }
 
     .cadre_populaire{
-        height: 110px;
-        width: 270px;
+        height: 130px;
+        width: 300px;
     }
 
     .cadre_populaire img{
