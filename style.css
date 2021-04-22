@@ -9,6 +9,9 @@ body a{
     color: #181818;
 }
 
+h4{
+    margin-bottom: 0;
+}
 /* Header */
 header
 {
@@ -62,7 +65,7 @@ nav a:hover
 
 .inscription a{
     color: #006af3;
-    font-weight: bold;
+    font-size: 1.3em;
 }
 /* RECHERCHE */
 
@@ -263,6 +266,7 @@ aside{
 .texte_activité{
     margin-left: 10px;
     line-height: 1px;
+    padding-left: 5px;
 }
 
 .groupe1{
@@ -331,6 +335,11 @@ aside{
     width: 100%;
     height: 89%;
     border-radius: 20px 20px 0 0;
+}
+
+.parc h4{
+    line-height: 1;
+    margin: 0;
 }
 
 .garde{
@@ -777,11 +786,34 @@ aside{
         height: 80%;
     }
 
+    .port h4{
+        margin-top: 15px;
+    }
+
+    .fort h4{
+        margin-top: 15px;
+    }
+
+    .iles h4{
+        margin-top: 15px;
+    }
+
+    .parc h4{
+        margin-top: 5px;
+    }
+
+    .garde h4{
+        margin-top: 15px;
+    }
+
+    .longchamp h4{
+        margin-top: 15px;
+    }
+
     .parc{
         height: 165px;
         width: 290px; 
-        padding-bottom: 15px; 
-        margin-bottom: 20px;  
+        padding-bottom: 15px;   
     }
 
     .groupe2{
