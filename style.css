@@ -70,6 +70,7 @@ nav a:hover
 }
 /* RECHERCHE */
 
+
 .champ-recherche{
     display: flex;
 }
@@ -84,6 +85,8 @@ nav a:hover
     padding: 7px;    
     border: 1px rgb(240, 240, 240, 0.678) solid;
     padding: 9px;
+    font-weight: bold;
+    font-size: 15PX;
 }
 
 .icon-loupe{
@@ -186,7 +189,7 @@ nav a:hover
 }
 
 .texte{
-    margin-left: 5px;
+    margin-left: 10px;
     line-height: 1px;
 }
 
@@ -275,6 +278,7 @@ aside{
     line-height: 1px;
     padding-left: 5px;
 }
+
 
 .groupe1{
     display: flex;
@@ -760,7 +764,7 @@ aside{
        padding-left: 0;
    }
    .chambre{
-       width: 290px;
+       width: 300px;
    }
 
    /* ACTIVITES */
@@ -770,22 +774,22 @@ aside{
    }
 
    .port{
-       height: 165px;
-       width: 290px;
+       height: 180px;
+       width: 310px;
        padding-bottom: 15px;
        margin-bottom: 20px;
    }
 
 
    .groupe1 .fort{
-        height: 165px;
-        width: 290px;
+        height: 180px;
+        width: 310px;
         margin-bottom: 20px;
    }
 
    .groupe1 .iles{
-        height: 165px;
-        width: 290px;
+        height: 180px;
+        width: 310px;
         margin-bottom: 20px;
 }
 
@@ -818,8 +822,8 @@ aside{
     }
 
     .parc{
-        height: 165px;
-        width: 290px; 
+        height: 180px;
+        width: 310px; 
         padding-bottom: 15px;   
     }
 
@@ -828,8 +832,8 @@ aside{
     }
 
     .groupe2 .garde{
-        height: 165px;
-        width: 290px;
+        height: 180px;
+        width: 310px;
         margin-bottom: 20px;
     }
 
@@ -838,8 +842,8 @@ aside{
     }
 
     .groupe2 .longchamp{
-        height: 165px;
-        width: 290px;
+        height: 180px;
+        width: 310px;
     }
 
     .groupe2 .longchamp img{
