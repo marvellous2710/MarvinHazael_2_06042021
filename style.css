@@ -10,7 +10,7 @@ body a{
 }
 
 h4{
-    margin-bottom: 0;
+    margin-bottom: ;
 }
 
 /* Header */
@@ -132,6 +132,14 @@ nav a:hover
     margin-right: 5px;
 }
 
+.info {
+    display: flex;
+}
+
+.info p{
+    margin: 10px;
+}
+
 .info i{
     color: #006af3;
     border: 1px rgb(240, 240, 240, 0.678) solid;    
@@ -193,10 +201,6 @@ nav a:hover
     line-height: 1px;
 }
 
-div .notation{
-    margin-top: -5px;
-}
-
 .notation i{
     color: #006af3;
     font-size: 10px;
@@ -230,6 +234,7 @@ div .notation{
     background: rgba(240, 240, 240, 0.678);
     border-radius: 20px 20px 20px 20px;   
     margin-right: 20px;
+    height: 565px;
 }
 
 .cadre_populaire{
@@ -436,6 +441,7 @@ aside{
 
     .chambre{
         width: 350px;
+        height: auto;
     }
 
     .image-container{
@@ -483,6 +489,7 @@ aside{
         width: 350px;
     }
 
+
     /* FOOTER */
 
     .apropos{
@@ -507,6 +514,10 @@ aside{
 
     .filtres-1 ul{
         flex-wrap: wrap;
+    }
+
+    .filtres-1 li{
+        margin-top: 5px;
     }
 
     /* POPULAIRES */
@@ -642,8 +653,9 @@ aside{
     .inscription a{
         float: right;
         color: #006af3;
+        margin-top: -10px;
     }
-    
+
     .menu{
         display: flex;
         flex-direction: column-reverse;
@@ -660,7 +672,7 @@ aside{
         border-bottom: 3px solid rgb(240, 240, 240, 0.678);
         text-align: center;
         width: 50%;
-        height: 91px;
+        height: 75px;
     }
    
    nav ul{
@@ -670,7 +682,7 @@ aside{
     }
     
     nav a{
-        padding: 50px;
+        padding: 30px;
         
     }
 
@@ -716,7 +728,7 @@ aside{
     .button-button{
         display: none;
     }
-  
+    
     
     /* FILTRES */
    .filtre-{
@@ -731,6 +743,14 @@ aside{
     .filtres-1 ul{
    flex-wrap: wrap;
    padding-left: 0;
+    }
+
+    .info i{
+        margin-left: 0;
+    }
+
+    .info p{
+        margin-left: 0;
     }
 
    /* POPULAIRES */
