@@ -285,13 +285,7 @@ aside{
 }
 
 
-.groupe1{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.groupe2{
+.groupe1, .groupe2{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -419,16 +413,6 @@ aside{
     color: #181818;
 }
 
-.apropos{
-    width: 30%;
-}
-.noshébergements{
-    width: 30%;
-}
-
-.assistance{
-    width: 30%;
-}
 
 
 /* MEDIA */
@@ -470,32 +454,13 @@ aside{
         height: 150px;
     }
 
+
     /* ACTIVITES */
-    .port{
+
+    .activités article{
         width: 350px;
     }
-
-    .fort{
-        width: 350px;
-    }
-
-    .iles{
-        width: 350px;
-    }
-
-    .parc{
-        width: 350px;
-    }
-
-    .garde{
-        width: 350px;
-    }
-
-    .longchamp{
-        width: 350px;
-    }
-
-
+    
     /* FOOTER */
 
     .apropos{
@@ -533,8 +498,7 @@ aside{
     }
 
     #logocourbe{
-        padding-left: 30px;
-        padding-right: 30px;
+        margin: 1rem;
     }
 
     #logocourbe i{
@@ -607,18 +571,6 @@ aside{
         margin-right: 100px;
     }
 
-    .apropos{
-        width: auto;
-    }
-
-    .noshébergements{
-        width: auto;
-    }
-
-    .assistance{
-        width: auto;
-    }
-
 }
 
 
@@ -643,12 +595,6 @@ aside{
 
     #logo{
         margin: 20px;
-    }
-
-    #logocourbe{
-        padding-left: 0;
-        padding-top: 0;
-        margin-right: 20px;
     }
 
     .inscription{
@@ -751,18 +697,10 @@ aside{
    padding-left: 0;
     }
 
-    .info i{
-        margin-left: 0;
-    }
-
-    .info p{
-        margin-left: 0;
-    }
 
    /* POPULAIRES */
 
     .populaires{
-        padding-left: 30px;
         padding-bottom: 100px;
         margin: 0;
     }
@@ -770,6 +708,7 @@ aside{
     .cadre_populaire{
         height: 130px;
         width: 300px;
+        margin: 1rem auto;
     }
 
     .cadre_populaire img{
@@ -796,40 +735,20 @@ aside{
    
    aside{
         margin-left: 30px;
-   }
+    }
 
-   .port{
-       height: 180px;
-       width: 310px;
-       padding-bottom: 15px;
-       margin-bottom: 20px;
-   }
-
-
-   .fort{
-        height: 180px;
-        width: 310px;
-        margin-bottom: 20px;
-   }
-
-   .iles{
-        height: 180px;
-        width: 310px;
-        margin-bottom: 20px;
-    } 
-
-    .groupe1 img{
-        height: 80%;
+   .activités article{
+    height: 180px;
+    width: 310px;
+    margin-bottom: 20px;
     }
 
     .activités h4{
         margin-top: 15px;
-    }
-    
-    .parc{
-        height: 180px;
-        width: 310px; 
-        padding-bottom: 15px;   
+    }   
+
+    .port, .parc{
+        padding-bottom: 15px;
     }
 
     .parc h4{
@@ -840,20 +759,12 @@ aside{
         flex-direction: column;
     }
 
-    .groupe2 img{
+    .iles img, .groupe2 img{
         height: 80%;
     }
 
-    .garde{
-        height: 180px;
-        width: 310px;
-        margin-bottom: 20px;
-    }
 
-    .longchamp{
-        height: 180px;
-        width: 310px;
-    }
+
 
     /* FOOTER */
 
