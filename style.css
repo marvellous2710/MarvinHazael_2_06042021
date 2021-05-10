@@ -718,6 +718,10 @@ aside{
         margin-top: 15px;
     }   
 
+    .parc img{
+        height: 86%;
+    }
+
     .port, .parc{
         padding-bottom: 15px;
     }
